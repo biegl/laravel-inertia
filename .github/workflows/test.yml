@@ -36,15 +36,3 @@ jobs:
           DB_CONNECTION: sqlite
           DB_DATABASE: database/database.sqlite
         run: vendor/bin/phpunit
-  npm-tests:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Set up Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: "16"
-
-      - run: npm install
-
-      - run: npm run prod
