@@ -20,6 +20,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f public/
+          git add public/
           git diff-index --quiet HEAD || git commit -m "Build front-end assets"
           git push
