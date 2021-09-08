@@ -1,0 +1,42 @@
+name: Deploy website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Copy .env
+        run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+
+      - name: Create .env file
+        run: |
+          echo "DEPLOY_PATH=${{ secrets.DEPLOY_PATH }}" >> .env
+          echo "SSH_USER=${{ secrets.SSH_USER }}" >> .env
+          echo "SSH_PORT=${{ secrets.SSH_PORT }}" >> .env
+
+      - name: Cache dependencies
+        uses: actions/cache@v2.1.5
+        with:
+          path: ~/.composer/cache/files
+          key: dependencies-composer-${{ hashFiles('composer.json') }}
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.4
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite
+          coverage: none
+
+      - name: Install Composer dependencies
+        run: composer install --prefer-dist --no-interaction --no-suggest
+
+      - name: Deploy
+        run: |
+          sudo apt-get install expect
+          /usr/bin/expect -c "set timeout -1; spawn php vendor/bin/dep deploy; expect -re \"password\"; send \"${{ secrets.SSH_PASSWORD }}\n\"; expect -re \"fingerprint\"; send \"yes\"; expect -re \"Successfully deployed\";"
