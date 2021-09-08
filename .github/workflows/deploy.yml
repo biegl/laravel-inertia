@@ -38,5 +38,6 @@ jobs:
 
       - name: Deploy
         run: |
+          ssh-keyscan -p ${{ secrets.SSH_PORT }} -H darwin183.lcube-server.de >> ~/.ssh/known_hosts
           sudo apt-get install expect
-          /usr/bin/expect -c "set timeout -1; spawn php vendor/bin/dep deploy; expect -re \"password\"; send \"${{ secrets.SSH_PASSWORD }}\n\"; expect -re \"fingerprint\"; send \"yes\"; expect -re \"Successfully deployed\";"
+          /usr/bin/expect -c "set timeout -1; spawn php vendor/bin/dep deploy; expect -re \"password\"; send \"${{ secrets.SSH_PASSWORD }}\n\"; expect -re \"Successfully deployed\";"

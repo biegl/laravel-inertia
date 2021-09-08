@@ -1,7 +1,9 @@
 name: Build assets
 
 on:
-  pull_request:
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   build:
