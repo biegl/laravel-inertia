@@ -1,0 +1,35 @@
+import:
+  - recipe/laravel.php
+  - contrib/npm.php
+
+config:
+  application: abfaltersbach.at
+  repository: git@github.com:biegl/laravel-inertia.git
+  keep_releases: 3
+  http_user: web11265
+  writable_mode: chmod
+  bin/php: /usr/bin/php-7.4
+  bin/composer: /usr/bin/php-7.4 /var/www/web11265/htdocs/dev/composer.phar
+  shared_files:
+    - .env
+
+hosts:
+  prod:
+    hostname: darwin183.lcube-server.de
+    remote_user: web11265
+    port: 31267
+    deploy_path: /var/www/web11265/htdocs/dev
+
+tasks:
+  deploy:
+    - deploy:prepare
+    - deploy:vendors
+    - artisan:storage:link
+    - artisan:view:cache
+    - artisan:route:cache
+    - artisan:config:cache
+    - artisan:migrate
+    - deploy:publish
+
+after:
+  deploy:failed: deploy:unlock
