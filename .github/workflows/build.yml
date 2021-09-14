@@ -19,13 +19,14 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v2
         with:
-          node-version: "14"
+          node-version: "16"
       - run: npm install
       - run: npm run prod
       - name: Commit built assets
+        continue-on-error: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f public/
+          git add public/
           git commit -m "Build front-end assets"
           git push
