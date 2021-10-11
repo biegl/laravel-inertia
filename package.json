@@ -17,7 +17,7 @@
         "@tailwindcss/typography": "^0.4.1",
         "@vue/compiler-sfc": "^3.2.19",
         "axios": "^0.22",
-        "laravel-mix": "^6.0.31",
+        "laravel-mix": "^6.0.32",
         "lodash": "^4.17.19",
         "postcss": "^8.3.9",
         "postcss-import": "^14.0.2",
