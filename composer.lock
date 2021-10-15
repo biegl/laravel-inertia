@@ -224,16 +224,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.0.0-beta.29",
+            "version": "v7.0.0-beta.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "d64b96f8a7feb68b88412e4efa89883c365abbf9"
+                "reference": "2bf0585c3fc8d24e6bc3465392ce159057b62ead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/d64b96f8a7feb68b88412e4efa89883c365abbf9",
-                "reference": "d64b96f8a7feb68b88412e4efa89883c365abbf9",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/2bf0585c3fc8d24e6bc3465392ce159057b62ead",
+                "reference": "2bf0585c3fc8d24e6bc3465392ce159057b62ead",
                 "shasum": ""
             },
             "require": {
@@ -290,7 +290,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-13T19:47:21+00:00"
+            "time": "2021-10-14T20:02:59+00:00"
         },
         {
             "name": "doctrine/inflector",
