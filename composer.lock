@@ -224,20 +224,20 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.0.0-beta.34",
+            "version": "v7.0.0-beta.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "00717feec0b77122ef75b8a8932e107ebbfa086a"
+                "reference": "652817516d20329f42f0e35da3522bf41e20c116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/00717feec0b77122ef75b8a8932e107ebbfa086a",
-                "reference": "00717feec0b77122ef75b8a8932e107ebbfa086a",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/652817516d20329f42f0e35da3522bf41e20c116",
+                "reference": "652817516d20329f42f0e35da3522bf41e20c116",
                 "shasum": ""
             },
             "require": {
-                "marcj/topsort": "^2.0",
+                "ext-json": "*",
                 "php": "^8.0|^7.3",
                 "psr/http-message": "^1",
                 "react/http": "^1",
@@ -290,7 +290,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-19T21:15:45+00:00"
+            "time": "2021-10-21T21:16:33+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -2048,68 +2048,6 @@
                 }
             ],
             "time": "2021-09-25T08:23:19+00:00"
-        },
-        {
-            "name": "marcj/topsort",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/marcj/topsort.php.git",
-                "reference": "972f58e42b5f110a0a1d8433247f65248abcfd5c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/marcj/topsort.php/zipball/972f58e42b5f110a0a1d8433247f65248abcfd5c",
-                "reference": "972f58e42b5f110a0a1d8433247f65248abcfd5c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "phpunit/phpunit": "^9",
-                "symfony/console": "~2.5 || ~3.0 || ~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "MJS\\TopSort\\": "src/",
-                    "MJS\\TopSort\\Tests\\": "tests/Tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marc J. Schmidt",
-                    "email": "marc@marcjschmidt.de"
-                }
-            ],
-            "description": "High-Performance TopSort/Dependency resolving algorithm",
-            "keywords": [
-                "dependency resolving",
-                "topological sort",
-                "topsort"
-            ],
-            "support": {
-                "issues": "https://github.com/marcj/topsort.php/issues",
-                "source": "https://github.com/marcj/topsort.php/tree/2.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/marcj",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-09-24T12:39:55+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
