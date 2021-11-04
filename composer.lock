@@ -224,16 +224,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.0.0-beta.37",
+            "version": "v7.0.0-beta.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "d220ae6c8be6bb419b152baa5db3e467f6e122ea"
+                "reference": "af780b3631e2eefef0279f56eb3692f0bf46f9b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/d220ae6c8be6bb419b152baa5db3e467f6e122ea",
-                "reference": "d220ae6c8be6bb419b152baa5db3e467f6e122ea",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/af780b3631e2eefef0279f56eb3692f0bf46f9b6",
+                "reference": "af780b3631e2eefef0279f56eb3692f0bf46f9b6",
                 "shasum": ""
             },
             "require": {
@@ -241,7 +241,7 @@
                 "justinrainbow/json-schema": "^5.2",
                 "php": "^8.0|^7.3",
                 "psr/http-message": "^1",
-                "react/http": "^1",
+                "react/http": "^1.5",
                 "symfony/console": "^5",
                 "symfony/polyfill-php80": "^1.22",
                 "symfony/process": "^5",
@@ -291,7 +291,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-26T22:42:38+00:00"
+            "time": "2021-11-03T15:09:45+00:00"
         },
         {
             "name": "doctrine/inflector",
