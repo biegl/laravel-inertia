@@ -23,6 +23,6 @@
         "postcss-import": "^14.0.2",
         "tailwindcss": "^2.2.19",
         "vue": "^3.2.21",
-        "vue-loader": "^16.8.2"
+        "vue-loader": "^16.8.3"
     }
 }
