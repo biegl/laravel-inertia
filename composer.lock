@@ -224,16 +224,16 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.0.0-rc.3",
+            "version": "v7.0.0-rc.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "cafe007465c8bf48eee0acc43959e8ed04ff6074"
+                "reference": "06be0ce1b0c75d4ed1aa6bdc0de77350e59d657c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/cafe007465c8bf48eee0acc43959e8ed04ff6074",
-                "reference": "cafe007465c8bf48eee0acc43959e8ed04ff6074",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/06be0ce1b0c75d4ed1aa6bdc0de77350e59d657c",
+                "reference": "06be0ce1b0c75d4ed1aa6bdc0de77350e59d657c",
                 "shasum": ""
             },
             "require": {
@@ -291,7 +291,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-21T22:14:58+00:00"
+            "time": "2022-01-13T13:39:08+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -3421,16 +3421,16 @@
         },
         {
             "name": "react/dns",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/dns.git",
-                "reference": "2a5a74ab751e53863b45fb87e1d3913884f88248"
+                "reference": "6d38296756fa644e6cb1bfe95eff0f9a4ed6edcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/dns/zipball/2a5a74ab751e53863b45fb87e1d3913884f88248",
-                "reference": "2a5a74ab751e53863b45fb87e1d3913884f88248",
+                "url": "https://api.github.com/repos/reactphp/dns/zipball/6d38296756fa644e6cb1bfe95eff0f9a4ed6edcb",
+                "reference": "6d38296756fa644e6cb1bfe95eff0f9a4ed6edcb",
                 "shasum": ""
             },
             "require": {
@@ -3438,7 +3438,7 @@
                 "react/cache": "^1.0 || ^0.6 || ^0.5",
                 "react/event-loop": "^1.2",
                 "react/promise": "^3.0 || ^2.7 || ^1.2.1",
-                "react/promise-timer": "^1.2"
+                "react/promise-timer": "^1.8"
             },
             "require-dev": {
                 "clue/block-react": "^1.2",
@@ -3485,7 +3485,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/dns/issues",
-                "source": "https://github.com/reactphp/dns/tree/v1.8.0"
+                "source": "https://github.com/reactphp/dns/tree/v1.9.0"
             },
             "funding": [
                 {
@@ -3497,7 +3497,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-11T12:40:34+00:00"
+            "time": "2021-12-20T08:46:54+00:00"
         },
         {
             "name": "react/event-loop",
@@ -3809,16 +3809,16 @@
         },
         {
             "name": "react/promise-timer",
-            "version": "v1.7.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/promise-timer.git",
-                "reference": "607dd79990e32fcb402cb0a176b4a4be12f97e7c"
+                "reference": "0bbbcc79589e5bfdddba68a287f1cb805581a479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/607dd79990e32fcb402cb0a176b4a4be12f97e7c",
-                "reference": "607dd79990e32fcb402cb0a176b4a4be12f97e7c",
+                "url": "https://api.github.com/repos/reactphp/promise-timer/zipball/0bbbcc79589e5bfdddba68a287f1cb805581a479",
+                "reference": "0bbbcc79589e5bfdddba68a287f1cb805581a479",
                 "shasum": ""
             },
             "require": {
@@ -3876,7 +3876,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/promise-timer/issues",
-                "source": "https://github.com/reactphp/promise-timer/tree/v1.7.0"
+                "source": "https://github.com/reactphp/promise-timer/tree/v1.8.0"
             },
             "funding": [
                 {
@@ -3888,20 +3888,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-11T13:08:51+00:00"
+            "time": "2021-12-06T11:08:48+00:00"
         },
         {
             "name": "react/socket",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "aa6e3f8ebcd6dec3ad1ee92a449b4cc341994001"
+                "reference": "d132fde589ea97f4165f2d94b5296499eac125ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/aa6e3f8ebcd6dec3ad1ee92a449b4cc341994001",
-                "reference": "aa6e3f8ebcd6dec3ad1ee92a449b4cc341994001",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/d132fde589ea97f4165f2d94b5296499eac125ec",
+                "reference": "d132fde589ea97f4165f2d94b5296499eac125ec",
                 "shasum": ""
             },
             "require": {
@@ -3960,7 +3960,7 @@
             ],
             "support": {
                 "issues": "https://github.com/reactphp/socket/issues",
-                "source": "https://github.com/reactphp/socket/tree/v1.9.0"
+                "source": "https://github.com/reactphp/socket/tree/v1.10.0"
             },
             "funding": [
                 {
@@ -3972,7 +3972,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-03T12:37:06+00:00"
+            "time": "2021-11-29T10:08:24+00:00"
         },
         {
             "name": "react/stream",
@@ -6395,28 +6395,28 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.3.6",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7"
+                "reference": "b9eb163846a61bb32dfc147f7859e274fab38b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7",
-                "reference": "4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/b9eb163846a61bb32dfc147f7859e274fab38b58",
+                "reference": "b9eb163846a61bb32dfc147f7859e274fab38b58",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
-                "symfony/deprecation-contracts": "^2.1",
-                "symfony/polyfill-ctype": "~1.8"
+                "symfony/deprecation-contracts": "^2.1|^3",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/console": "<4.4"
+                "symfony/console": "<5.3"
             },
             "require-dev": {
-                "symfony/console": "^4.4|^5.0"
+                "symfony/console": "^5.3|^6.0"
             },
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
@@ -6450,7 +6450,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.3.6"
+                "source": "https://github.com/symfony/yaml/tree/v5.4.2"
             },
             "funding": [
                 {
@@ -6466,7 +6466,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-29T06:20:01+00:00"
+            "time": "2021-12-16T21:58:21+00:00"
         },
         {
             "name": "tightenco/ziggy",
