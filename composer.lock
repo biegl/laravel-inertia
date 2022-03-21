@@ -225,20 +225,20 @@
         },
         {
             "name": "deployer/deployer",
-            "version": "v7.0.0-rc.6",
+            "version": "v7.0.0-rc.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deployphp/deployer.git",
-                "reference": "e23a2111bc4ea3795c3037bd933d8055125416c7"
+                "reference": "22aec36a96ed449ccebb430aeda449b2cebf87a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deployphp/deployer/zipball/e23a2111bc4ea3795c3037bd933d8055125416c7",
-                "reference": "e23a2111bc4ea3795c3037bd933d8055125416c7",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/22aec36a96ed449ccebb430aeda449b2cebf87a9",
+                "reference": "22aec36a96ed449ccebb430aeda449b2cebf87a9",
                 "shasum": ""
             },
             "bin": [
-                "dep"
+                "deployer.phar"
             ],
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -264,7 +264,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-17T21:41:34+00:00"
+            "time": "2022-03-18T22:53:10+00:00"
         },
         {
             "name": "doctrine/inflector",
